@@ -1,0 +1,41 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+1. Start
+2. Declare integer variables num1, num2, sum
+3. Prompt the user to enter the first number and store it in num1
+4. Prompt the user to enter the second number and store it in num2
+5. Calculate sum = num1 + num2
+6. Print "The sum is" followed by sum
+7. End
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. Start
+2. Declare integer variable num
+3. Prompt the user to enter a number and store it in num
+4. If num modulo 2 equals 0
+     a. Print "The number is even"
+   Else
+     a. Print "The number is odd"
+5. End
+
+// Exercise 3: Perform the Given Tasks with Five Numbers
+
+1. Start
+2. Declare integer array numbers[5]
+3. Declare integer variables i, sum, min, max
+4. Initialize sum to 0
+5. For i from 0 to 4
+     a. Prompt the user to enter a number and store it in numbers[i]
+     b. Add numbers[i] to sum
+     c. If i is 0
+          i. Set min to numbers[i]
+          ii. Set max to numbers[i]
+        Else
+          i. If numbers[i] < min, set min to numbers[i]
+          ii. If numbers[i] > max, set max to numbers[i]
+6. Calculate average as sum / 5
+7. Print "The average is" followed by average
+8. Print "The smallest number is" followed by min
+9. Print "The largest number is" followed by max
+10. End
